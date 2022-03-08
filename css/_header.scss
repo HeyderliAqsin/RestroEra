@@ -1,0 +1,103 @@
+#header{
+    .top-header{
+        color: $myColor2;
+        padding: 15px;
+         background-color: $myColor;
+        .icons{
+            a{
+                color: $myColor2;
+                margin-right: 15px;
+            }
+        }
+        .contact{
+            a{
+                color: $myColor2;
+                margin-left: 15px;
+                text-decoration: none;
+            }
+        }
+        .login{
+            a{
+                color: $myColor2;
+                text-decoration: none;
+            }
+        }
+    }
+    .bottom-header{
+        background-color: $myColor2;
+        padding: 15px;
+        nav{
+            ul{
+                li{
+                    padding: 5px ;
+                    &.Dropped{
+                        position: relative;
+                        z-index: 1;
+                        &:hover{
+                            .dropdown{
+                                visibility: visible;
+                                opacity: 1;
+                               transform:none;
+                            }
+                        }
+                        .dropdown{
+                            position: absolute;
+                            top: 100%;
+                            right: 0;
+                            min-width: 180px;
+                            background-color: $myColor2;
+                            padding: 10px;
+                            opacity: 0;
+                            visibility: hidden;
+                            transform: rotateX(0deg) translateX(0px) translateY(50px) 
+                            translateZ(0px) scale(0.8) skewX(10deg) skewY(0deg);
+                            transition:transform .3s ease-in-out;
+                            li{
+                                padding: 10px 0;
+                                a{
+                                    color:$myColor;
+                                    padding: 12px;
+                                    margin: 0;
+                                    &:hover{
+                                        color: $myColor1;
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                    a{
+                        text-decoration: none;
+                        color: $myColor;
+                        font-weight: 500;
+                        margin-left : 20px;
+                        font-size: 1.1rem;
+                        &:hover{
+                             color: $myColor1;
+                        }
+                  }
+                  i{
+                      font-size: .6rem;
+                  }
+            }
+        }  
+    }
+    .mySelect{
+        position: relative;
+        &::before{
+            content: url(../photo/dessert.png);
+            transform: scale(0.05);
+            width: 10px;
+            height: 0;
+            display: block;
+            left: 10px;
+            top: 5px;
+            position: absolute;
+        }
+        .select2{
+         padding: 5px 40px;
+         width: 140px;
+     }
+     }
+}
+}

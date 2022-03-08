@@ -1,0 +1,95 @@
+#Popular{
+    padding: 80px 0;
+    .top-head{
+        text-align: center;
+        padding: 40px 0;
+        h2{
+            font-weight: 700;
+            font-size: 2.3rem;
+            padding: 5px 0;
+            font-family: $myFamily;
+            span{
+                color: $myColor1;
+            }
+        }
+        p{
+            font-size: 18px;
+            width: 470px;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+  .left-side,.right-side{
+      transition: .5s ease-in-out;
+    &:hover{
+        transform: translateY(-5%);
+    }
+    .cat-item{
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgb(101 112 134 / 22%);
+        position: relative;
+        
+        .open,#heart{
+            position: absolute;
+            top: 15%;
+            right: -1%;
+            padding: 2px 6px;
+            border-radius: 5px;
+            background-color: green;
+            color: #fff;
+        }
+        #heart{
+            top: -2%;
+            padding: 10px;
+            background-color: $myColor;
+            color: #fff;
+            border-radius: 50%;
+            transition: .3s ease-in-out;
+            cursor: pointer;
+            &:hover{
+                background-color: $myColor1;
+            }
+        }
+        .icons{
+            i{
+                color:gold;
+                font-size: 0.7rem;
+            }
+        }
+        .text{
+            margin-left: 20px;
+        .head{
+            padding-left: 10px;
+            a{
+                color: $myColor1;
+                font-size: 0.7rem;
+                font-weight: 600;
+            }
+            h5{
+                padding: 5px 0;
+                font-weight: bold;
+                color: $myColor ;
+                i{
+                    color: green;
+                    font-size: 0.9rem;
+                }
+        }
+            }
+            .img{
+                padding: 10px;
+                img{
+                    padding: 9px;
+                    box-shadow: 0 2px 8px 0px #ccc;
+                    border-radius: 50%;
+                }
+                span{
+                    padding-left: 10px;
+                    vertical-align: bottom;
+                }
+            }
+           
+        }
+    }
+  }
+}

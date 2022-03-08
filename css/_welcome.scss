@@ -1,0 +1,59 @@
+#Welcome{
+   padding: 110px;
+       .left{
+       position: relative;
+      
+       .text{
+           position: absolute;
+           bottom: 0;
+           left: 0;
+           width: 100%;
+        p{
+            padding: 15px;
+            margin: 0;
+            text-align: center;
+            font-size: 16px;
+            background-color: $myColor1;
+            color: #fff;
+            font-weight: 500;
+        }
+       }
+   }
+   .right{
+       h2{
+           font-family: $myFamily;
+           color: $myColor1;
+           font-weight: 700;   
+       }
+       p{
+        color: #300c00;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+       }
+       ul{
+           li{
+               margin:10px  20px;
+               border: 2px dotted #000;
+               border-radius: 10px;
+               padding: 8px 45px;
+               transition: .3s ease-in-out;
+               &:hover{
+                   border: 2px dotted $myColor1;
+                   box-shadow: 0 0 30px 1px #ccc;
+               }
+              a{
+                  font-size: 1.2rem;
+                  text-decoration: none;
+                  color: $myColor;
+                  padding-left: 10px;
+                  text-align: center;
+              }
+              i{
+                  color: $myColor1;
+                  font-size: 1.3rem;
+              } 
+           }
+       }
+   }
+}

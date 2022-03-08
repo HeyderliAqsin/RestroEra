@@ -1,0 +1,1638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- FontAwesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="vendors/Bootstrap css/bootstrap.css">
+    <link rel="stylesheet" href="vendors/chosen plugin/chosen.min.css">
+    <link rel="stylesheet" href="vendors/slick/slick-theme.css">
+    <link rel="stylesheet" href="vendors/slick/slick.css">
+    <!-- Main link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header start -->
+    <header id="header">
+        <div class="top-header d-flex justify-content-around align-items-center">
+            <div class="icons">
+                <ul class="d-flex list-unstyled m-0 p-0">
+                    <li><a href="#"><i class="fab fa-facebook"></i>
+                        </a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i>
+                        </a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i>
+                        </a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i>
+                        </a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i>
+                        </a></li>
+                    <li><a href="#"><i class="fab fa-google"></i>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <ul class="d-flex list-unstyled m-0 p-0">
+                    <li><a href="#"><i class="fas fa-phone-alt"></i>
+                            <span>+011231231234</span>
+                        </a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i>
+                            <span>restroera@exactthemes.com</span>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="login">
+                <a href="#"><i class="fas fa-sign-in-alt"></i>
+                    <span> Login/Signup</span></a>
+            </div>
+        </div>
+        <div class="bottom-header d-flex justify-content-around align-items-center">
+            <div class="logo">
+                <img width="150px" src="photo/restroera.png" alt="">
+            </div>
+            <nav>
+                <ul class="d-flex list-unstyled m-0 p-0">
+                    <li><a href="">Home</a></li>
+                    <li><a href="about.html" target="_blank">About Us</a></li>
+                    <li class="Dropped"><a href="#">Explore</a>
+                        <i class="fas fa-plus"></i>
+                        <ul class="dropdown list-unstyled">
+                            <li><a href="">Item 1</a></li>
+                            <li><a href="">Item 2</a></li>
+                            <li><a href="">Item 3</a></li>
+                            <li><a href="">Item 4</a></li>
+                            <li><a href="">Item 5</a></li>
+                        </ul>
+                    </li>
+                    <li class="Dropped"><a href="#">Pages</a>
+                        <i class="fas fa-plus"></i>
+                        <ul class="dropdown list-unstyled">
+                            <li><a href="">Item 1</a></li>
+                            <li><a href="">Item 2</a></li>
+                            <li><a href="">Item 3</a></li>
+                            <li><a href="">Item 4</a></li>
+                            <li><a href="">Item 5</a></li>
+                            <li><a href="">Item 6</a></li>
+                            <li><a href="">Item 7</a></li>
+                        </ul>
+                    </li>
+                    <li class="Dropped"><a href="#">Blog</a>
+                        <i class="fas fa-plus"></i>
+                        <ul class="dropdown list-unstyled">
+                            <li><a href="">Item 1</a></li>
+                            <li><a href="">Item 2</a></li>
+                            <li><a href="">Item 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="Dropped"><a href="#">Shop</a>
+                        <i class="fas fa-plus"></i>
+                        <ul class="dropdown list-unstyled">
+                            <li><a href="">Item 1</a></li>
+                            <li><a href="">Item 2</a></li>
+                            <li><a href="">Item 3</a></li>
+                            <li><a href="">Item 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <div class="mySelect">
+                            <select class="select2">
+                                <option>Text1</option>
+                                <option>Text2</option>
+                            </select>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Header end -->
+    <!-- Main start -->
+    <section id="Main">
+        <video width="100%" height="auto" autoplay loop muted src="video/Easter-Food-TV-Advert-2018-_-MS.mp4">
+        </video>
+        <div class="banner">
+            <div class="text pb-5 mb-4">
+                <h1>Discover <span>Restaurants</span> Around You</h1>
+                <p>The Best Restaurants at the best price</p>
+            </div>
+        </div>
+        <div class="container">
+            <form id="banner-search">
+                <div class="tab-content">
+                    <ul class=" d-flex align-items-center list-unstyled ">
+                        <li>
+                            <input id="searchInput" type="text" placeholder="I m looking for..">
+                        </li>
+                        <li>
+                            <select class="chosen-select" style="width: 180px;">
+                                <option selected value="">Delivery Type</option>
+                                <option value="2">Takeaway</option>
+                                <option value="3">Home Delivery</option>
+                            </select>
+                        </li>
+                        <li>
+                            <select class="chosen-select2" style="width: 250px ">
+                                <option value="1">Select Category</option>
+                                <option value="2">Chinese</option>
+                                <option value="3">Fast Food</option>
+                                <option value="3">Italian</option>
+                                <option value="3">Desi Food</option>
+                                <option value="3">Continental</option>
+                                <option value="3">Sea Food</option>
+                                <option value="3">Spanish</option>
+                                <option value="3">Thai</option>
+                            </select>
+                        </li>
+                        <li>
+                            <div class="Location">
+                                <input id="searchInput4" type="text" placeholder="Near">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img width="25px" src="photo/search.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Main end -->
+    <!-- Welcome start -->
+    <section id="Welcome">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="left">
+                        <div class="Img">
+                            <img class="img-fluid" src="photo/welcome.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <p>FIND BEST RESTAURANTS HERE OF YOUR CHOICE</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="right">
+                        <h2>WELCOME TO RESTROERA</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim adminim. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur.</p>
+                        <ul class=" d-flex list-unstyled flex-wrap">
+                            <li><i class="fas fa-utensils"></i><a href="#">Amazing Dishes</a></li>
+                            <li><i class="fas fa-users"></i><a href="#">Amazing Dishes</a></li>
+                            <li><i class="fas fa-search"></i><a href="#">Amazing Dishes</a></li>
+                            <li><i class="far fa-credit-card"></i><a href="#">Amazing Dishes</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Welcome end -->
+    <!-- Cuisine start -->
+    <section id="Cuisines">
+        <div class="container">
+            <div class="top-head">
+                <div class="icon">
+                    <img width="40px" src="photo/tray.png" alt="">
+                </div>
+                <div class="text">
+                    <h2>FIND BY <span>CUISINES</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                </div>
+            </div>
+            <!-- tab-menu -->
+            <div id="Tab">
+                <div class="Tab-top">
+                    <button> Chinese</button>
+                    <button> Continental</button>
+                    <button> Fast Food</button>
+                    <button> Italian</button>
+                    <button> Sea Food</button>
+                    <button> Spanish</button>
+                    <div class="Tab-down">
+                        <div class="content active">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="content-item">
+                                        <div class="img">
+                                            <div class="open">
+                                                <span>Open</span>
+                                            </div>
+                                            <img class="img-fluid" src="photo/continental5-380x263.jpg" alt="">
+                                            <div class="icons">
+                                                <span>5</span>
+                                                <a href="#">
+                                                    <i class="plus fas fa-search-plus"></i>
+                                                </a>
+                                                <a href="#">
+                                                    <i class="heart far fa-heart"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="middle d-flex">
+                                            <img width="80px" src="photo/restaurant-2.png" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <h5>Continental Food <i class="fas fa-check-circle"></i></h5>
+                                            <div class="location d-flex justify-content-between align-items-center">
+                                                <div class="img">
+                                                    <img width="20px" src="photo/location-pin.png" alt="">
+
+                                                </div>
+                                                <div class="left">
+                                                    <p>Town Square Dubai - Al Qudra Road -
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="down d-flex justify-content-between">
+                                                <div class="left d-flex align-items-center">
+                                                    <div class="img">
+                                                        <img width="20px" src="photo/scooter.png" alt="">
+                                                    </div>
+                                                    <span>
+                                                        30 Mins
+                                                    </span>
+                                                </div>
+                                                <div class="right d-flex align-items-center">
+                                                    <div class="img">
+                                                        <img width="20px" src="photo/road.png" alt="">
+                                                    </div>
+                                                    <span>
+                                                        30 Mins
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="content-item">
+                                        <div class="img">
+                                            <div class="open">
+                                                <span>Open</span>
+                                            </div>
+                                            <img class="img-fluid" src="photo/burger1-380x263.jpg" alt="">
+                                            <div class="icons">
+                                                <span>5</span>
+                                                <a href="#">
+                                                    <i class="plus fas fa-search-plus"></i>
+                                                </a>
+                                                <a href="#">
+                                                    <i class="heart far fa-heart"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="middle d-flex">
+                                            <img width="80px" src="photo/restaurant-logo-1.png" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <h5>Double Decker <i class="fas fa-check-circle"></i></h5>
+                                            <div class="location d-flex justify-content-between align-items-center">
+                                                <div class="img">
+                                                    <img width="20px" src="photo/location-pin.png" alt="">
+
+                                                </div>
+                                                <div class="left">
+                                                    <p>London Street, Hamilton Central, Ha
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="down d-flex justify-content-between">
+                                                <div class="left d-flex align-items-center">
+                                                    <div class="img">
+                                                        <img width="20px" src="photo/scooter.png" alt="">
+                                                    </div>
+                                                    <span>
+                                                        Yes
+                                                    </span>
+                                                </div>
+                                                <div class="right d-flex align-items-center"">
+                                                    <div class=" img">
+                                                    <img width="20px" src="photo/road.png" alt="">
+                                                </div>
+                                                <span>
+                                                    Yes
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="content-item">
+                                    <div class="img">
+                                        <div class="open">
+                                            <span>Open</span>
+                                        </div>
+                                        <img class="img-fluid" src="photo/fast5-380x263.jpg" alt="">
+                                        <div class="icons">
+                                            <span>5</span>
+                                            <a href="#">
+                                                <i class="plus fas fa-search-plus"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="heart far fa-heart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="middle d-flex">
+                                        <img width="80px" src="photo/restaurant-logo-3.png" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Pani Express <i class="fas fa-check-circle"></i></h5>
+                                        <div class="location d-flex justify-content-between align-items-center">
+                                            <div class="img">
+                                                <img width="20px" src="photo/location-pin.png" alt="">
+
+                                            </div>
+                                            <div class="left tex-align-left">
+                                                <p>New York Botanical Garden, Southern
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="down d-flex justify-content-between">
+                                            <div class="left d-flex align-items-center">
+                                                <div class="img">
+                                                    <img width="20px" src="photo/scooter.png" alt="">
+                                                </div>
+                                                <span>
+                                                    30 Mins
+                                                </span>
+                                            </div>
+                                            <div class="right d-flex align-items-center"">
+                                                    <div class=" img">
+                                                <img width="20px" src="photo/road.png" alt="">
+                                            </div>
+                                            <span>
+                                                10 Mins
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="content-item">
+                                <div class="img">
+                                    <div class="open">
+                                        <span>Open</span>
+                                    </div>
+                                    <img class="img-fluid" src="photo/continental5-380x263.jpg" alt="">
+                                    <div class="icons">
+                                        <span>5</span>
+                                        <a href="#">
+                                            <i class="plus fas fa-search-plus"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="heart far fa-heart"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="middle d-flex">
+                                    <img width="80px" src="photo/restaurant-2.png" alt="">
+                                </div>
+                                <div class="text">
+                                    <h5>Continental Food <i class="fas fa-check-circle"></i></h5>
+                                    <div class="location d-flex justify-content-between align-items-center">
+                                        <div class="img">
+                                            <img width="20px" src="photo/location-pin.png" alt="">
+
+                                        </div>
+                                        <div class="left">
+                                            <p>Town Square Dubai - Al Qudra Road -
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="down d-flex justify-content-between">
+                                        <div class="left d-flex align-items-center">
+                                            <div class="img">
+                                                <img width="20px" src="photo/scooter.png" alt="">
+                                            </div>
+                                            <span>
+                                                30 Mins
+                                            </span>
+                                        </div>
+                                        <div class="right d-flex align-items-center">
+                                            <div class="img">
+                                                <img width="20px" src="photo/road.png" alt="">
+                                            </div>
+                                            <span>
+                                                30 Mins
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="content-item">
+                                <div class="img">
+                                    <div class="open">
+                                        <span>Open</span>
+                                    </div>
+                                    <img class="img-fluid" src="photo/mexican1-380x263.jpg" alt="">
+                                    <div class="icons">
+                                        <span>5</span>
+                                        <a href="#">
+                                            <i class="plus fas fa-search-plus"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="heart far fa-heart"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="middle d-flex">
+                                    <img width="80px" src="photo/restaurant-logo-2 (1).png" alt="">
+                                </div>
+                                <div class="text">
+                                    <h5>Gloria’s Mexican <i class="fas fa-check-circle"></i></h5>
+                                    <div class="location d-flex justify-content-between align-items-center">
+                                        <div class="img">
+                                            <img width="20px" src="photo/location-pin.png" alt="">
+
+                                        </div>
+                                        <div class="left">
+                                            <p>California State University Long Be
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="down d-flex justify-content-between">
+                                        <div class="left d-flex align-items-center">
+                                            <div class="img">
+                                                <img width="20px" src="photo/scooter.png" alt="">
+                                            </div>
+                                            <span>
+                                                Yes
+                                            </span>
+                                        </div>
+                                        <div class="right d-flex align-items-center"">
+                                                    <div class=" img">
+                                            <img width="20px" src="photo/road.png" alt="">
+                                        </div>
+                                        <span>
+                                            Yes
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="content-item">
+                            <div class="img">
+                                <div class="open">
+                                    <span>Open</span>
+                                </div>
+                                <img class="img-fluid" src="photo/fast5-380x263.jpg" alt="">
+                                <div class="icons">
+                                    <span>5</span>
+                                    <a href="#">
+                                        <i class="plus fas fa-search-plus"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="heart far fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="middle d-flex">
+                                <img width="80px" src="photo/restaurant-logo-3.png" alt="">
+                            </div>
+                            <div class="text">
+                                <h5>Pani Express <i class="fas fa-check-circle"></i></h5>
+                                <div class="location d-flex justify-content-between align-items-center">
+                                    <div class="img">
+                                        <img width="20px" src="photo/location-pin.png" alt="">
+
+                                    </div>
+                                    <div class="left tex-align-left">
+                                        <p>New York Botanical Garden, Southern
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="down d-flex justify-content-between">
+                                    <div class="left d-flex align-items-center">
+                                        <div class="img">
+                                            <img width="20px" src="photo/scooter.png" alt="">
+                                        </div>
+                                        <span>
+                                            30 Mins
+                                        </span>
+                                    </div>
+                                    <div class="right d-flex align-items-center"">
+                                                    <div class=" img">
+                                        <img width="20px" src="photo/road.png" alt="">
+                                    </div>
+                                    <span>
+                                        10 Mins
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="content-item">
+                        <div class="img">
+                            <div class="open">
+                                <span>Open</span>
+                            </div>
+                            <img class="img-fluid" src="photo/burger1-380x263.jpg" alt="">
+                            <div class="icons">
+                                <span>5</span>
+                                <a href="#">
+                                    <i class="plus fas fa-search-plus"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="heart far fa-heart"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="middle d-flex">
+                            <img width="80px" src="photo/restaurant-2.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h5>Continental Food <i class="fas fa-check-circle"></i></h5>
+                            <div class="location d-flex justify-content-between align-items-center">
+                                <div class="img">
+                                    <img width="20px" src="photo/location-pin.png" alt="">
+
+                                </div>
+                                <div class="left">
+                                    <span>Town Square Dubai - Al Qudra Road -
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="down d-flex justify-content-between">
+                                <div class="left d-flex align-items-center">
+                                    <div class="img">
+                                        <img width="20px" src="photo/scooter.png" alt="">
+                                    </div>
+                                    <span>
+                                        30 Mins
+                                    </span>
+                                </div>
+                                <div class="right d-flex align-items-center"">
+                                                    <div class=" img">
+                                    <img width="20px" src="photo/road.png" alt="">
+                                </div>
+                                <span>
+                                    30 Mins
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="content-item">
+                    <div class="img">
+                        <div class="open">
+                            <span>Open</span>
+                        </div>
+                        <img class="img-fluid" src="photo/continental5-380x263.jpg" alt="">
+                        <div class="icons">
+                            <span>5</span>
+                            <a href="#">
+                                <i class="plus fas fa-search-plus"></i>
+                            </a>
+                            <a href="#">
+                                <i class="heart far fa-heart"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="middle d-flex">
+                        <img width="80px" src="photo/restaurant-2.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h5>Continental Food <i class="fas fa-check-circle"></i></h5>
+                        <div class="location d-flex justify-content-between align-items-center">
+                            <div class="img">
+                                <img width="20px" src="photo/location-pin.png" alt="">
+
+                            </div>
+                            <div class="left">
+                                <span>Town Square Dubai - Al Qudra Road -
+                                </span>
+                            </div>
+                        </div>
+                        <div class="down d-flex justify-content-between">
+                            <div class="left d-flex align-items-center">
+                                <div class="img">
+                                    <img width="20px" src="photo/scooter.png" alt="">
+                                </div>
+                                <span>
+                                    30 Mins
+                                </span>
+                            </div>
+                            <div class="right d-flex align-items-center"">
+                                                    <div class=" img">
+                                <img width="20px" src="photo/road.png" alt="">
+                            </div>
+                            <span>
+                                30 Mins
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="content-item">
+                <div class="img">
+                    <div class="open">
+                        <span>Open</span>
+                    </div>
+                    <img class="img-fluid" src="photo/pizza1-380x263.jpg" alt="">
+                    <div class="icons">
+                        <span>5</span>
+                        <a href="#">
+                            <i class="plus fas fa-search-plus"></i>
+                        </a>
+                        <a href="#">
+                            <i class="heart far fa-heart"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="middle d-flex">
+                    <img width="80px" src="photo/restaurant-2.png" alt="">
+                </div>
+                <div class="text">
+                    <h5>Continental Food <i class="fas fa-check-circle"></i></h5>
+                    <div class="location d-flex justify-content-between align-items-center">
+                        <div class="img">
+                            <img width="20px" src="photo/location-pin.png" alt="">
+
+                        </div>
+                        <div class="left">
+                            <span>Town Square Dubai - Al Qudra Road -
+                            </span>
+                        </div>
+                    </div>
+                    <div class="down d-flex justify-content-between">
+                        <div class="left d-flex align-items-center">
+                            <div class="img">
+                                <img width="20px" src="photo/scooter.png" alt="">
+                            </div>
+                            <span>
+                                30 Mins
+                            </span>
+                        </div>
+                        <div class="right d-flex align-items-center"">
+                                                    <div class=" img">
+                            <img width="20px" src="photo/road.png" alt="">
+                        </div>
+                        <span>
+                            30 Mins
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        </div>
+    </section>
+    <!-- Cuisine end -->
+    <!-- Location start -->
+    <section id="Location">
+        <div class="container">
+            <div class="top-head">
+                <div class="icon">
+                    <img width="40px" src="photo/tray.png" alt="">
+                </div>
+                <div class="text">
+                    <h2>FIND BY <span>LOCATIONS</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="Location-item">
+                        <div class="photo">
+                            <img class="img-fluid" src="photo/italy.jpg" alt="">
+                        </div>
+                        <h3>Italy</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="Location-item">
+                        <div class="photo">
+                            <img class="img-fluid" src="photo/london.jpg" alt="">
+                        </div>
+                        <h3>London</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="Location-item">
+                        <div class="photo">
+                            <img class="img-fluid" src="photo/paris.jpg" alt="">
+                        </div>
+                        <h3>Paris</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="Location-item">
+                        <div class="photo">
+                            <img class="img-fluid" src="photo/spain.jpg" alt="">
+                        </div>
+                        <h3>Spain</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Location end -->
+    <!-- Works start -->
+    <section id="Works">
+        <div class="container">
+            <div class="top-head">
+                <div class="text">
+                    <h2>HOW IT <span>WORKS</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="works-item">
+                        <div class="hexagon">
+                            <img src="photo/fast-food.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h3> Choose Cuisine</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor dolor
+                                sit amet consectetur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="works-item">
+                        <div class="hexagon">
+                            <img src="photo/food.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h3> Choose Cuisine</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor dolor
+                                sit amet consectetur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="works-item">
+                        <div class="hexagon">
+                            <img src="photo/scooter.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h3> Choose Cuisine</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor dolor
+                                sit amet consectetur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Works end -->
+    <!-- Explore start -->
+    <section id="Explore">
+        <div class="container">
+            <div class="top-head">
+                <div class="icon">
+                    <img width="40px" src="photo/tray.png" alt="">
+                </div>
+                <div class="text">
+                    <h2>EXPLORE <span>CATEGORIES</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 m-0 p-0">
+                    <div class="res-category-column">
+                        <a href="#">
+                            <span class="con">Italian</span>
+                            <i id="icon" class="fas fa-arrow-right"></i>
+                            <span class="text-muted me-3">2</span>
+                        </a>
+                    </div>
+                    <div class="res-category-column">
+                        <a href="#">
+                            <span class="con">Italian</span>
+                            <i id="icon" class="fas fa-arrow-right"></i>
+                            <span class="text-muted me-3">2</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 m-0 p-0">
+                    <div class="res-category-column">
+                        <a href="#">
+                            <span class="con">Italian</span>
+                            <i id="icon" class="fas fa-arrow-right"></i>
+                            <span class="text-muted me-3">2</span>
+                        </a>
+                    </div>
+                    <div class="res-category-column">
+                        <a href="#">
+                            <span class="con">Italian</span>
+                            <i id="icon" class="fas fa-arrow-right"></i>
+                            <span class="text-muted me-3">2</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 m-0 p-0">
+                    <div class="res-category-column">
+                        <a href="#">
+                            <span class="con">Italian</span>
+                            <i id="icon" class="fas fa-arrow-right"></i>
+                            <span class="text-muted me-3">2</span>
+                        </a>
+                    </div>
+                    <div class="res-category-column">
+                        <a href="#">
+                            <span class="con">Italian</span>
+                            <i id="icon" class="fas fa-arrow-right"></i>
+                            <span class="text-muted me-3">2</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 m-0 p-0">
+                    <div class="res-category-column">
+                        <a href="#">
+                            <span class="con">Italian</span>
+                            <i id="icon" class="fas fa-arrow-right"></i>
+                            <span class="text-muted me-3">2</span>
+                        </a>
+                    </div>
+                    <div class="res-category-column">
+                        <a href="#">
+                            <span class="con">Italian</span>
+                            <i id="icon" class="fas fa-arrow-right"></i>
+                            <span class="text-muted me-3">2</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Explore end -->
+    <!-- BacFixed start -->
+    <section id="bacFixed">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-3 col-sm-4 col-4">
+                    <img id="Ani" class="img-fluid" src="photo/et-call-to.png" alt="">
+                </div>
+                <div class="col-lg-6 col-sm-8 col-8">
+                    <div class="text">
+                        <img src="photo/voucher.png" alt="">
+                        <h1>Get <span> 20% </span>off</h1>
+                        <p>i nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                            adipisci velit, sed quia non numquam.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-right">
+                    <a href="">Get Promo</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- BacFixed end -->
+    <!-- Popular start -->
+    <section id="Popular">
+        <div class="container">
+            <div class="top-head">
+                <div class="icon">
+                    <img width="40px" src="photo/tray.png" alt="">
+                </div>
+                <div class="text">
+                    <h2>POPULAR <span>RESTAURANTS</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-">
+                    <div class="left-side my-3">
+                        <div class="cat-item d-flex align-items-center">
+                            <label class="open" for="">Open</label>
+                            <i id="heart" class="far fa-heart"></i>
+                            <div class="img">
+                                <img width="100px" src="photo/restaurant-2.png" alt="">
+                                <div class="icons ms-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="head">
+                                    <a>CHINESE</a>
+                                    <h5>Continental Food <i class="fas fa-check-circle"></i></h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisi</p>
+                                </div>
+                                <div class="up d-flex justify-content-between align-items-center">
+                                    <div class="img">
+                                        <img width="40px" src="photo/eye.png" alt="">
+                                        <span>
+                                            269+ Views
+                                        </span>
+                                    </div>
+
+                                    <div class="img">
+                                        <img width="40px" src="photo/star.png" alt="">
+                                        <span>
+                                            269+ Views
+                                        </span>
+                                    </div>
+                                    <div class="img">
+                                        <img width="40px" src="photo/location-pin.png" alt="">
+                                        <span>
+                                            California
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="down d-flex align-items-center">
+                                    <div class="img">
+                                        <img width="40px" src="photo/scooter.png" alt="">
+                                    </div>
+                                    <span>
+                                        30 Mins
+                                    </span>
+                                    <div class="img">
+                                        <img width="40px" src="photo/road.png" alt="">
+                                        <span>
+                                            30 Mins
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-">
+                    <div class="right-side my-3">
+                        <div class="cat-item d-flex align-items-center">
+                            <label class="open" for="">Open</label>
+                            <i id="heart" class="far fa-heart"></i>
+                            <div class="img">
+                                <img width="100px" src="photo/restaurant-2.png" alt="">
+                                <div class="icons ms-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="head">
+                                    <a>CHINESE</a>
+                                    <h5>Continental Food <i class="fas fa-check-circle"></i></h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisi</p>
+                                </div>
+                                <div class="up d-flex justify-content-between align-items-center">
+                                    <div class="img">
+                                        <img width="40px" src="photo/eye.png" alt="">
+                                        <span>
+                                            269+ Views
+                                        </span>
+                                    </div>
+
+                                    <div class="img">
+                                        <img width="40px" src="photo/star.png" alt="">
+                                        <span>
+                                            269+ Views
+                                        </span>
+                                    </div>
+                                    <div class="img">
+                                        <img width="40px" src="photo/location-pin.png" alt="">
+                                        <span>
+                                            California
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="down d-flex align-items-center">
+                                    <div class="img">
+                                        <img width="40px" src="photo/scooter.png" alt="">
+                                    </div>
+                                    <span>
+                                        30 Mins
+                                    </span>
+                                    <div class="img">
+                                        <img width="40px" src="photo/road.png" alt="">
+                                        <span>
+                                            30 Mins
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-">
+                    <div class="left-side my-3">
+                        <div class="cat-item d-flex align-items-center">
+                            <label class="open" for="">Open</label>
+                            <i id="heart" class="far fa-heart"></i>
+                            <div class="img">
+                                <img width="100px" src="photo/restaurant-2.png" alt="">
+                                <div class="icons ms-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="head">
+                                    <a>CHINESE</a>
+                                    <h5>Continental Food <i class="fas fa-check-circle"></i></h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisi</p>
+                                </div>
+                                <div class="up d-flex justify-content-between align-items-center">
+                                    <div class="img">
+                                        <img width="40px" src="photo/eye.png" alt="">
+                                        <span>
+                                            269+ Views
+                                        </span>
+                                    </div>
+
+                                    <div class="img">
+                                        <img width="40px" src="photo/star.png" alt="">
+                                        <span>
+                                            269+ Views
+                                        </span>
+                                    </div>
+                                    <div class="img">
+                                        <img width="40px" src="photo/location-pin.png" alt="">
+                                        <span>
+                                            California
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="down d-flex align-items-center">
+                                    <div class="img">
+                                        <img width="40px" src="photo/scooter.png" alt="">
+                                    </div>
+                                    <span>
+                                        30 Mins
+                                    </span>
+                                    <div class="img">
+                                        <img width="40px" src="photo/road.png" alt="">
+                                        <span>
+                                            30 Mins
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-">
+                    <div class="right-side my-3">
+                        <div class="cat-item d-flex align-items-center">
+                            <label class="open" for="">Open</label>
+                            <i id="heart" class="far fa-heart"></i>
+                            <div class="img">
+                                <img width="100px" src="photo/restaurant-2.png" alt="">
+                                <div class="icons ms-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="head">
+                                    <a>CHINESE</a>
+                                    <h5>Continental Food <i class="fas fa-check-circle"></i></h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisi</p>
+                                </div>
+                                <div class="up d-flex justify-content-between align-items-center">
+                                    <div class="img">
+                                        <img width="40px" src="photo/eye.png" alt="">
+                                        <span>
+                                            269+ Views
+                                        </span>
+                                    </div>
+
+                                    <div class="img">
+                                        <img width="40px" src="photo/star.png" alt="">
+                                        <span>
+                                            269+ Views
+                                        </span>
+                                    </div>
+                                    <div class="img">
+                                        <img width="40px" src="photo/location-pin.png" alt="">
+                                        <span>
+                                            California
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="down d-flex align-items-center">
+                                    <div class="img">
+                                        <img width="40px" src="photo/scooter.png" alt="">
+                                    </div>
+                                    <span>
+                                        30 Mins
+                                    </span>
+                                    <div class="img">
+                                        <img width="40px" src="photo/road.png" alt="">
+                                        <span>
+                                            30 Mins
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-">
+                    <div class="left-side my-3">
+                        <div class="cat-item d-flex align-items-center">
+                            <label class="open" for="">Open</label>
+                            <i id="heart" class="far fa-heart"></i>
+                            <div class="img">
+                                <img width="100px" src="photo/restaurant-2.png" alt="">
+                                <div class="icons ms-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="head">
+                                    <a>CHINESE</a>
+                                    <h5>Continental Food <i class="fas fa-check-circle"></i></h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisi</p>
+                                </div>
+                                <div class="up d-flex justify-content-between align-items-center">
+                                    <div class="img">
+                                        <img width="40px" src="photo/eye.png" alt="">
+                                        <span>
+                                            269+ Views
+                                        </span>
+                                    </div>
+
+                                    <div class="img">
+                                        <img width="40px" src="photo/star.png" alt="">
+                                        <span>
+                                            269+ Views
+                                        </span>
+                                    </div>
+                                    <div class="img">
+                                        <img width="40px" src="photo/location-pin.png" alt="">
+                                        <span>
+                                            California
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="down d-flex align-items-center">
+                                    <div class="img">
+                                        <img width="40px" src="photo/scooter.png" alt="">
+                                    </div>
+                                    <span>
+                                        30 Mins
+                                    </span>
+                                    <div class="img">
+                                        <img width="40px" src="photo/road.png" alt="">
+                                        <span>
+                                            30 Mins
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-">
+                    <div class="right-side my-3">
+                        <div class="cat-item d-flex align-items-center">
+                            <label class="open" for="">Open</label>
+                            <i id="heart" class="far fa-heart"></i>
+                            <div class="img">
+                                <img width="100px" src="photo/restaurant-2.png" alt="">
+                                <div class="icons ms-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="head">
+                                    <a>CHINESE</a>
+                                    <h5>Continental Food <i class="fas fa-check-circle"></i></h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisi</p>
+                                </div>
+                                <div class="up d-flex justify-content-between align-items-center">
+                                    <div class="img">
+                                        <img width="40px" src="photo/eye.png" alt="">
+                                        <span>
+                                            269+ Views
+                                        </span>
+                                    </div>
+
+                                    <div class="img">
+                                        <img width="40px" src="photo/star.png" alt="">
+                                        <span>
+                                            269+ Views
+                                        </span>
+                                    </div>
+                                    <div class="img">
+                                        <img width="40px" src="photo/location-pin.png" alt="">
+                                        <span>
+                                            California
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="down d-flex align-items-center">
+                                    <div class="img">
+                                        <img width="40px" src="photo/scooter.png" alt="">
+                                    </div>
+                                    <span>
+                                        30 Mins
+                                    </span>
+                                    <div class="img">
+                                        <img width="40px" src="photo/road.png" alt="">
+                                        <span>
+                                            30 Mins
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Popular end -->
+    <!-- Customer start -->
+    <section id="customers">
+        <div class="top-head">
+            <div class="text">
+                <h2>WHAT OUR CUSTOMERS SAY</h2>
+                <p> The friendliness of the staff seems genuine. I have never seen such good customer service.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="Slider">
+                    <div class="col-lg-6">
+                        <div class="slider-item">
+                            <div class="top d-flex align-items-center">
+                                <img width="100px" src="photo/custome-1.jpg" alt="">
+                                <h4>Jeniffer Adam</h4>
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p> The friendliness of the staff seems genuine. I have never seen such good customer
+                                service. <br> Stay tuned our website..
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="slider-item">
+                            <div class="top d-flex align-items-center">
+                                <img class="sec" width="100px" src="photo/custome-2.jpg" alt="">
+                                <h4>Jeniffer Adam</h4>
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p> The friendliness of the staff seems genuine. I have never seen such good customer
+                                service. <br> Stay tuned our website..
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="slider-item">
+                            <div class="top d-flex align-items-center">
+                                <img width="100px" src="photo/custome-1.jpg" alt="">
+                                <h4>Jeniffer Adam</h4>
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p> The friendliness of the staff seems genuine. I have never seen such good customer
+                                service. <br> Stay tuned our website..
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="slider-item">
+                            <div class="top d-flex align-items-center">
+                                <img class="sec" width="100px" src="photo/custome-2.jpg" alt="">
+                                <h4>Jeniffer Adam</h4>
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p> The friendliness of the staff seems genuine. I have never seen such good customer
+                                service. <br> Stay tuned our website..
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <!-- Customer end -->
+    <!-- App start -->
+    <section id="App">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="text">
+                        <h2>Download the <span>App</span> now!</h2>
+                        <p class="desc">Not at all like other occupation locales that abandon you out of the loop, Job
+                            Time alarms you the moment your application is seen.</p>
+                        <a class="restro-apple" href="#">
+                            <img width="150px" src="photo/apple.jpg" alt="">
+                        </a>
+                        <a class="restro-google" href="#">
+                            <img width="150px" src="photo/google.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <img class="img-fluid" src="photo/app-phone.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- App end -->
+    <!-- News start -->
+    <section id="News">
+        <div class="top-head">
+            <div class="icon">
+                <img width="40px" src="photo/tray.png" alt="">
+            </div>
+            <div class="text">
+                <h2>LATEST <span>NEWS</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="Content d-flex">
+                <div class="col-lg-4">
+                    <div class="content-item">
+                        <div class="img">
+                            <div class="open">
+                                <span>Travel</span>
+                            </div>
+                            <img class="img-fluid" src="photo/blog4-366x320.jpg" alt="">
+                        </div>
+                        <div class="middle d-flex">
+                            <img width="80px" src="photo/profile.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h5>Dogs Loves Ice Creams</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut ... </p>
+                            <div class="btn">
+                                <a href="#">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="content-item">
+                        <div class="img">
+                            <div class="open">
+                                <span>Travel</span>
+                            </div>
+                            <img class="img-fluid" src="photo/blog2-366x320.jpg" alt="">
+                        </div>
+                        <div class="middle d-flex">
+                            <img width="80px" src="photo/profile.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h5>Dogs Loves Ice Creams</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut ... </p>
+                            <div class="btn">
+                                <a href="#">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="content-item">
+                        <div class="img">
+                            <div class="open">
+                                <span>Travel</span>
+                            </div>
+                            <img class="img-fluid" src="photo/blog6-366x320.jpg" alt="">
+                        </div>
+                        <div class="middle d-flex">
+                            <img width="80px" src="photo/profile.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h5>Dogs Loves Ice Creams</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut ... </p>
+                            <div class="btn">
+                                <a href="#">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="content-item">
+                        <div class="img">
+                            <div class="open">
+                                <span>Travel</span>
+                            </div>
+                            <img class="img-fluid" src="photo/blog2-366x320.jpg" alt="">
+                        </div>
+                        <div class="middle d-flex">
+                            <img width="80px" src="photo/profile.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h5>Dogs Loves Ice Creams</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut ... </p>
+                            <div class="btn">
+                                <a href="#">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- News end -->
+    <!-- Footer start -->
+    <footer id="Footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="left">
+                        <div class="top-left d-flex align-items-center">
+                            <span>SOCIAL</span>
+                            <ul class="d-flex list-unstyled">
+                                <li><a href=""><i class="fab fa-facebook first"></i></a></li>
+                                <li><a href=""><i class="fab fa-twitter second"></i></a></li>
+                                <li><a href=""><i class="fab fa-instagram third"></i></a></li>
+                                <li><a href=""><i class="fab fa-youtube fourth"></i></a></li>
+                                <li><a href=""><i class="fab fa-linkedin fifth"></i></a></li>
+                                <li><a href=""><i class="fab fa-google-plus sixth"></i></a></li>
+                                <li><a href=""><i class="fab fa-pinterest seventh"></i></a></li>
+                                <li><a href=""><i class="fab fa-whatsapp eighth"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="right">
+                        <div class="top-right d-flex align-items-center">
+                            <span>CONTACT</span>
+                            <ul class="list-unstyled">
+                                <li><img width="30px" src="photo/address.png" alt=""></i>
+                                    89 Hill Road, Folsome Street 3H, United States</li>
+                                <li><img width="25px" src="photo/phone.png" alt=""></i>
+                                    +2212345678
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="middle-left">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore..</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="middle-right">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Your email address" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                              <button class="btn btn-outline-secondary" type="submit">Subscribe</button>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="bottom-left">
+                        <h5>About</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                        <hr>
+                        <div class="down">
+                            <h5>Our partners</h5>
+                            <ul class="d-flex list-unstyled">
+                                <li><img width="30px" src="photo/partner-1.png" alt=""></li>
+                                <li><img width="30px" src="photo/partner-2.png" alt=""></li>
+                                <li><img width="30px" src="photo/partner-3.png" alt=""></li>
+                                <li><img width="30px" src="photo/partner-4.png" alt=""></li>
+                                <li><img width="30px" src="photo/partner-1 (1).png" alt=""></li>
+                            </ul>
+                            <span>© 2021 The Restro. All Rights Reserved Exact Themes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="bottom-middle">
+                        <h5>Content</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Our Home</a></li>
+                            <li><a href="#">Pricing Plans</a></li>
+                            <li><a href="#">News & Posts</a></li>
+                            <li><a href="#">About Company</a></li>
+                            <li><a href="#">Add Restaurants</a></li>
+                            <li><a href="#">Contact Information</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="bottom-right">
+                        <h5>Showcase Images</h5>
+                        <ul class="d-flex flex-wrap m-0 p-0">
+                            <li><a href="#"><img width="100px" src="photo/insta-1.jpg" alt=""></a></li>
+                            <li><a href="#"><img width="100px" src="photo/insta-2.jpg" alt=""></a></li>
+                            <li><a href="#"><img width="100px" src="photo/insta-3.jpg" alt=""></a></li>
+                            <li><a href="#"><img width="100px" src="photo/insta-4.jpg" alt=""></a></li>
+                            <li><a href="#"><img width="100px" src="photo/insta-5.jpg" alt=""></a></li>
+                            <li><a href="#"><img width="100px" src="photo/insta-6.jpg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+
+
+    <script src="vendors/jQuery/jquery-3.6.0.min.js"></script>
+    <script src="vendors/slick/slick.min.js"></script>
+    <script src="vendors/Bootrsap js/bootstrap.bundle.js"></script>
+    <script src="vendors/chosen plugin/chosen.jquery.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

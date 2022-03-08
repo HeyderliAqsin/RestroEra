@@ -1,0 +1,98 @@
+#Works{
+    background-color: $myColor;
+    padding: 80px 0;
+    .top-head{
+        text-align: center;
+        h2{
+            font-weight: 700;
+            font-size: 2.3rem;
+            padding: 5px 0;
+            font-family: $myFamily;
+            color: #FFF;
+            span{
+                color: $myColor1;
+            }
+        }
+        p{
+            font-size: 18px;
+            width: 470px;
+            text-align: center;
+            margin: 0 auto;
+            color: #fff;
+        }
+    }
+    .works-item{
+        text-align: center;
+        padding-top: 80px;
+      .text{
+          padding: 20px 30px;
+        h3{
+            color: #fff;
+        }
+        p{
+            color: #fff;
+            font-size: 1.1rem;
+        }
+      }
+      .hexagon{
+        position: relative;
+        border-color: #CB1511 !important;
+        margin: 0 auto;
+        top: 0px;
+        transform: scale(0.4);
+        position: relative;
+        width: 300px;
+        box-shadow: none;
+        height: 173.21px;
+        background-color: transparent;
+        border-left: solid 3px;
+        border-right: solid 3px;
+         img{
+            width: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            right: 0px;
+            margin: 0 auto;
+            object-fit: cover;
+            vertical-align: middle;
+            z-index: 2;
+          }
+        &::after{
+            content: "";
+            position: absolute;
+            z-index: 1;
+            width: 212.13px;
+            height: 212.13px;
+            transform: scaleY(0.5774) rotate(-45deg);
+            transform: scaleY(0.5774) rotate(
+            -45deg);
+            background-color: inherit;
+            left: 43.934px;
+            top: -106.066px;
+            border-top: solid 4.2426px;
+            border-right: solid 4.2426px;
+            border-color: #CB1511 !important;
+
+          }
+      &::before{
+          content: "";
+          position: absolute;
+          bottom: -106.066px;
+          position: absolute;
+          z-index: 1;
+          box-shadow: none;
+          width: 212.13px;
+          height: 212.13px;
+          transform: scaleY(0.5774) rotate(
+        -45deg);
+         background-color: inherit;
+         left: 40.934px;
+         border-bottom: solid 4.2426px;
+         border-left: solid 4.2426px;
+        border-color: #CB1511 !important;
+        }  
+       }
+   }
+}

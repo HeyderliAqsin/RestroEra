@@ -1,0 +1,57 @@
+#bacFixed{
+    padding: 100px 0;
+    background-color:#F1F2F6;
+    background-image: url(../photo/cta-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    #Ani{
+        vertical-align: middle;
+        animation: myAni 4s infinite ease-in-out;
+    }
+ .text{
+     padding: 10px;
+    h1{
+        font-weight: bold;
+        span{
+            font-size: 3.5rem;
+            color: $myColor1;
+        }
+    }
+    p{
+        line-height: 30px   ;
+    }
+ }
+ .text-right{
+    text-align: right !important;
+    padding-right: 25px;
+    &:hover{
+        a{
+            background:$myColor;
+        }
+    }
+     a{
+         padding: 12px 30px;
+         background:$myColor1;
+         color: #fff;
+         text-decoration: none;
+         border-radius: 5px;
+         transition:.3s ease-in-out;
+     }
+ }
+}
+
+@keyframes myAni{
+    0%{
+        transform:translateY(-10px)
+    }
+    50%{
+        transform:translateY(15px)
+    }
+  
+    100%{
+        transform:translateY(-10px)
+    }
+    
+}

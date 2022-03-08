@@ -1,0 +1,184 @@
+#Footer{
+    padding: 40px 0 ;
+    background: $myColor;
+    hr{
+       background-color:#fff !important;
+       opacity: 1;
+       order: 0;
+       border-top: 1px solid rgba(0, 0, 0, .1);
+       box-sizing: content-box;
+       height: 0;
+       overflow: visible;
+       margin:0 !important;
+    }
+    .left{
+        .top-left{
+            span{
+                transform: rotate( -90deg);
+                height: 20px;
+                margin-left: -20px;
+                font-size: 16px;
+                font-weight: 500;
+                color: #fff;
+            }
+            ul{
+                li{
+                    font-size: 1.4rem;
+                    margin-left: 20px;
+                    a{
+                        text-decoration: none;
+                        .first{
+                            background: #4064AD;
+                            color: #fff;
+                            padding: 8px;
+                            border-radius: 50%;
+                        }
+                        .second{
+                            background: #1C9CEB;
+                            color: #fff;
+                            padding: 8px;
+                            border-radius: 50%;
+                        }
+                        .third{
+                            background: #DD3560;
+                            color: #fff;
+                            padding: 8px 9px;
+                            border-radius: 50%;
+                        }
+                        .fourth{
+                            background: #F80000;
+                            color: #fff;
+                            padding: 8px 6px;
+                            border-radius: 50%;
+                        }
+                        .fifth{
+                            background: #0070AC;
+                            color: #fff;
+                            padding: 8px 9px;
+                            border-radius: 50%;
+                        }
+                        .sixth{
+                            background: #D5493E;
+                            color: #fff;
+                            padding: 8px;
+                            border-radius: 50%;
+                        }
+                        .seventh{
+                            background: #C8232C;
+                            color: #fff;
+                            padding: 8px 9px;
+                            border-radius: 50%;
+                        }
+                        .eighth{
+                            background: #4AC458;
+                            color: #fff;
+                            padding: 8px 9px;
+                            border-radius: 50%;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    .right{
+        padding-bottom: 10px;
+        .top-right{
+           span{
+            transform: rotate(-90deg);
+            height: 20px;
+            margin-left: -20px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+           } 
+           ul{
+               li{
+                   color: #fff;
+                   margin-top: 5px;
+               }
+           }
+        }
+    }
+    .middle-left{
+        padding: 40px 0;
+        p{
+            color: #fff;
+        }
+    }
+    .middle-right{
+        padding: 40px 0;
+        .input-group{
+            input{
+            padding: 15px 20px ;
+
+            }
+            .input-group-append{
+                .btn{
+                    padding: 16px ;
+                    background: $myColor1;
+                    border: none;
+                    color: #fff;
+                }
+            }
+        }
+       
+    }
+    .bottom-left{
+        padding: 20px 0;
+        h5{
+            color: #fff;
+        }
+        p{
+            color: #fff;
+        }
+        .down{
+            padding: 20px 0;
+            h5{
+                color: #fff;
+            }
+            ul{
+                li{
+                    padding: 20px 0;
+                    margin-right: 30px;
+                }
+            }
+            span{
+                color: #fff;
+                font-size: 1rem;
+            }
+        }
+    }
+    .bottom-middle{
+        padding: 20px 0;
+        h5{
+            color: #fff;
+        }
+        ul{
+            li{
+                margin-top: 20px;
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .bottom-right{
+        padding: 20px 0;
+        h5{
+            color: #fff;
+        }
+       ul{
+           li{
+              a{
+                img{
+                    margin: 3px;
+                    border-radius: 10px;
+                }
+                 }
+              }
+       }
+
+}
+}

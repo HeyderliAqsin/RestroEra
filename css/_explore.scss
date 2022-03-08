@@ -1,0 +1,53 @@
+#Explore{
+    padding: 100px 0;
+    .top-head{
+        text-align: center;
+        padding: 40px 0;
+        h2{
+            font-weight: 700;
+            font-size: 2.3rem;
+            padding: 5px 0;
+            font-family: $myFamily;
+            span{
+                color: $myColor1;
+            }
+        }
+        p{
+            font-size: 18px;
+            width: 470px;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+    .res-category-column{
+        border: 1px solid  rgba(0,0,0,0.08);
+        a{
+        text-decoration: none;
+        padding: 15px;
+        font-weight: 700;
+        font-size: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: rgb(83, 80, 80);
+        .con{
+        transition:.3s ease-in-out;                   
+        }
+        #icon{
+        transition:.3s ease-in-out;                   
+
+        }
+        &:hover{
+            .con{
+           transform:translateX(15px);
+            }
+            #icon{
+           transform:translateX(-15px);
+            }
+        }
+        i{
+            color: $myColor1;
+        }
+        }
+    }
+}

@@ -1,0 +1,172 @@
+#Main{
+    .text{
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        width: 100%;
+        text-align: center;
+        h1{
+            color: #fff;
+            font-size: 65px;
+            font-weight: 800;
+            font-family: $myFamily;
+            margin-bottom: 20px;
+            position: relative;
+            &::before{
+                content:"";
+                position: absolute;
+                background: url(../photo/smoke.png);
+                width: 40px;
+                height: 50px;
+                bottom: 70px;
+                left: 48%;
+                margin: 0 auto;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                display: block;
+            }
+            span{
+                color: $myColor1;
+            }
+        }
+        p{
+            font-size: 25px;
+            font-weight: 700;
+            font-style: italic;
+            color: #fff; 
+            margin-bottom: 70px;
+
+        }
+    
+    
+     }
+     #banner-search{
+        position: absolute;
+        top: 80%;
+        left: 15%;
+        text-align: center;
+        width: 70%;
+        background-color: $myColor;
+        height: 90px;
+        .tab-content{ 
+             width: 100%;
+             padding: 20px;
+             position: relative;
+             left: 0;
+           ul{
+               justify-content:space-between;
+               li{
+                #searchInput{
+                    padding: 12px 25px;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                    min-width: 250px;
+                    border-radius: 5px;
+                    border: none;
+                    &:focus{
+                        outline: none;
+                    }
+                }
+                .chosen-select,.chosen-select2{
+                    height: 50px;
+                    border-radius: 5px;
+                }
+               .Location{
+                position: relative;
+                #searchInput4{
+                    padding: 12px 25px;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                    min-width: 250px;
+                    border-radius: 5px;
+                    border: 1px solid $myColor1;
+                    &:focus{
+                        outline: none;
+                    }
+                }
+                i{
+                    position: absolute;
+                    right: 10px;
+                    top: 15px;
+                    font-size: 1.1rem;
+                    color: $myColor1;
+                }
+               }
+                    .chosen-single{
+                        height: 50px;
+                        span{
+                            font-size: 1rem;
+                        }
+                    }
+                    .chosen-drop{
+                        text-align: left;
+                       ul{
+                           li{
+                               padding: 10px;
+                               font-size: 1rem;
+                               position: relative;
+                               padding-left: 40px;
+                               &::before{
+                                font-family: 'Font Awesome 6 Free';
+                                content: "\f00c";
+                                font-weight: bold;
+                                position: absolute;
+                                left: 10px;   
+                            }
+                               &:hover{
+                                   color: $myColor1;
+                                   background: #eee;
+                               }
+                           }
+                       }
+                    }
+                 
+                
+                .wrapperDiv{
+                    position: relative;
+                }
+                .dropDiv{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    border: 1px solid #888;
+                    max-height: 250px;
+                    background-color: #fff;
+                    overflow-y: hidden;
+                    display: none;
+                    text-align: left;
+                    margin-top: 5px;
+                    span{
+                        padding: 5px 35px;
+                        cursor: pointer;
+                        position: relative;
+                        display: block;
+                        &::before{
+                            font-family: 'Font Awesome 6 Free';
+                            content: "\f00c";
+                            font-weight: 900;
+                            position: absolute;
+                            left: 10px;   
+                        }
+                        &:hover{
+                            color: $myColor1;
+                            background: #eee;
+                        }
+                    }
+                }
+                a{
+                    background-color: $myColor1;
+                    padding: 14px;
+                    border-radius: 5px;
+                    transition: .3s ease-in-out;
+                    &:hover{
+                        background-color: $myColor;
+                    }
+                
+                }
+               }
+           }
+          
+        }
+    }
+}

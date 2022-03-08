@@ -1,0 +1,76 @@
+#customers{
+    background:url(../photo/food-table-scaled.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 100px 0;
+    .top-head{
+        text-align: center;
+        padding: 40px 0;
+        h2{
+            font-weight: 700;
+            font-size: 2.3rem;
+            padding: 5px 0;
+            font-family: $myFamily;
+            color: #fff;
+        }
+        p{
+            font-size: 18px;
+            width: 470px;
+            text-align: center;
+            margin: 0 auto;
+            color: #fff;
+
+        }
+    }
+    .Slider{
+        .slick-next:before,.slick-prev:before{
+            display: none;
+        }
+        .slider-item{
+
+            p{
+                font-style: italic;
+                color: rgb(231, 220, 220);
+                padding: 20px 0;
+            }
+            .top{
+                img{
+                    border-radius: 50%;
+                    height: 100px;
+                    object-fit: cover;
+                    &.sec{
+                        height: 100px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                        object-position: top;
+                    }
+                   
+                }
+                h4{
+                    position: relative;
+                    padding-left: 70px;
+                    color: #fff;
+                    font-weight: bold;
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        left: 20px;
+                        top: 15px;
+                        width: 40px;
+                        height: 0px;
+                        border-bottom : 4px solid red;
+                        border-radius: 20px;
+                    }
+                }
+                i{
+                    padding-left: 30px;
+                    font-size: 3.5rem;
+                    color: #98948C;
+                }
+               
+            }
+        }
+    }
+}
